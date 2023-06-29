@@ -1,0 +1,229 @@
+/*css reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*style*/
+
+body{
+    font: 16px/28px arial, sans-serif;
+    color: #000;
+    background-image: url(assets/image/bg.png);
+}
+
+.container{
+    width: 150vh;
+    margin: auto;
+    background-color: white;
+}
+
+.header{
+    padding: 20px;
+    padding-bottom: 10px;
+background-color: #11FF00;
+color: #555D0D;
+}
+
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: overline;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+
+}
+.header a{
+    text-decoration: none;
+    color: #000B82;
+}
+.header a:hover{
+    border: 2px solid #f1ff00;
+    border-radius: 5px;
+    color: black;
+    background-color: #f1ff00;
+
+
+}
+.hero{
+    height: 280px;
+    background-image: url(assets/image/guru.jpeg);
+    background-size: cover;
+    background-position: 0px -250px;
+    border-top: 5px solid #f1ff00;
+    border-bottom: 5px solid #00f1ff;
+}
+
+.content{
+    padding: 10px;
+}
+.content .judul{
+    font-size: 20px;
+    font-weight: bold;
+}
+.content .penulis{
+    font-size: 15px;
+}
+.content .oleh{
+    text-decoration: none;
+    color: #ff00f1;
+}
+.content p{
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.content2{
+    padding: 10px;
+}
+.content2 .kasogi{
+    font-size: 20px;
+    font-weight: Bold;
+}
+.content2 .guru1{
+    display: inline-block;
+}
+.content2 .foto-kasogi{
+    width: 300px;
+    height: 300px;
+    background-image: url(assets/image/Kasogi.png);
+    background-position: -160px -230px;
+    margin: 10px;
+}
+.content2 p{
+    font-size: 15px;
+}
+.content2 .halo{
+    font-weight: bold;
+    font-size: 17px;
+}
+.content3{
+    padding: 10px;
+}
+.content3 .Edo{
+    font-size: 20px;
+    font-weight: Bold;
+}
+.content3 .guru2{
+    display: inline-block;
+}
+.content3 .foto-edo{
+    width: 300px;
+    height: 300px;
+    background-image: url(assets/image/Edo.png);
+    background-position: -160px -150px;
+    margin: 10px;
+}
+.content3 p{
+    font-size: 15px;
+}
+.content3 .halo2{
+    font-weight: bold;
+    font-size: 17px;
+}
+.content4{
+    padding: 10px;
+}
+.content4 .Nita{
+    font-size: 20px;
+    font-weight: Bold;
+}
+.content4 .guru3{
+    display: inline-block;
+}
+.content4 .foto-nita{
+    width: 300px;
+    height: 300px;
+    background-image: url(assets/image/nita.png);
+    background-position: -160px -150px;
+    margin: 10px;
+}
+.content4 p{
+    font-size: 15px;
+}
+.content4 .halo3{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.content5{
+    padding: 10px;
+}
+.content5 .isnain{
+    font-size: 20px;
+    font-weight: Bold;
+}
+.content5 .guru4{
+    display: inline-block;
+}
+.content5 .foto-isnain{
+    width: 300px;
+    height: 300px;
+    background-image: url(assets/image/Isnaini.png);
+    background-position: -160px -150px;
+    margin: 10px;
+}
+.content5 p{
+    font-size: 15px;
+}
+.content5 .halo4{
+    font-weight: bold;
+    font-size: 17px;
+}
+.footer{
+    background-color: #333;
+}
+.footer .copy{
+    color: #eaeaea;
+    text-align: center;
+    font-size: 13px;
+}
+.footer .copy2{
+    color: #eaeaea;
+    text-align: center;
+    font-size: 13px;
+}

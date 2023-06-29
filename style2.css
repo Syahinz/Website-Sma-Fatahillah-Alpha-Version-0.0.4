@@ -1,0 +1,129 @@
+/*css reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*style*/
+
+body{
+    font: 16px/28px arial, sans-serif;
+    color: #000;
+    background-image: url(assets/image/bg.png);
+}
+
+.container{
+    width: 150vh;
+    margin: auto;
+    background-color: white;
+}
+
+.header{
+    padding: 20px;
+    padding-bottom: 10px;
+background-color: #11FF00;
+color: #555D0D;
+}
+
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: overline;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+
+}
+.header a{
+    text-decoration: none;
+    color: #000B82;
+
+}
+.header a:hover{
+    border: 2px solid #f1ff00;
+    border-radius: 5px;
+    color: black;
+    background-color: #f1ff00;
+
+
+}
+.hero{
+    height: 280px;
+    background-image: url(assets/image/13958203_10207269754892528_4155721435169528362_o.jpg);
+    background-size: cover;
+
+    border-top: 5px solid #f1ff00;
+    border-bottom: 5px solid #00f1ff;
+}
+
+.content{
+    padding: 10px;
+}
+.content .welcome{
+    font-size: 20px;
+    font-weight: bold;
+}
+.content .penulis{
+    font-size: 15px;
+}
+.content .oleh{
+    text-decoration: none;
+    color: #ff00f1;
+}
+.content p{
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.footer{
+    background-color: #333;
+}
+.footer .copy{
+    color: #eaeaea;
+    text-align: center;
+    font-size: 13px;
+}
